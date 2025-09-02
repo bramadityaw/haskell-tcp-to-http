@@ -69,7 +69,11 @@ executable haskell-tcp-to-http
     -- Other library packages from which modules are imported.
     build-depends:
         base ^>=4.17.2.1,
-        bytestring ^>=0.12.2.0
+        bytestring ^>= 0.12.2.0,
+        text ^>= 2.0.2,
+        containers ^>= 0.6.7,
+        network-run ^>=0.4.4,
+        network ^>= 3.2.8.0
 
     -- Directories containing source files.
     hs-source-dirs:   app
