@@ -1,5 +1,7 @@
 module Http.Request
-   ( Request
+   ( Request(..)
+   , RequestLine(..)
+   , Method(..)
    ) where
 
 import Http.Common
